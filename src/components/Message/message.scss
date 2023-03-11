@@ -1,0 +1,53 @@
+.message{
+display: flex;
+max-width: 50%;
+.msg-time{
+  position: relative;
+  right: -6px;
+  bottom: -5px;
+}
+.outgoing-msg{
+ position: relative;
+ left: 100%;
+   padding: 14px 8px 0 24px;
+   
+   
+     &__body{
+       position: relative;
+         display: flex;
+         align-items: center;
+         justify-content: start;
+        background: rgba(64, 126, 201, 0.16);
+        border-radius: 4px;
+        margin-bottom: 14px;
+        padding: 10px;
+         
+     }
+
+}
+
+  .incoming-msg{
+    display: flex;
+     padding: 14px 8px 0 24px;
+    &__avatar{
+      padding-right: 8px;
+    }
+    &__right{
+      .incoming-msg-name{
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+      }
+      .incoming-msg-body{
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding: 8px 12px;
+        background: #F3F3F3;
+        border-radius: 4px;
+        margin-bottom: 4px;
+      }
+    }
+  }
+}

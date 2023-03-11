@@ -1,0 +1,31 @@
+.main{
+    display: flex;
+
+    &__sidebar{
+        flex: 1;
+    }
+    &__chat-block{
+        flex: 5;
+        
+    }
+}
+.attention{
+    display: none;
+}
+@media (max-width:700px) {
+    .main{
+        display: none;
+    }
+    .attention{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+            text-align: center;
+            padding: 350px 80px;
+            width: 80%;
+            margin: auto;
+        }
+    }
+}

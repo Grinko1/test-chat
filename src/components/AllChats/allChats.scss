@@ -1,0 +1,16 @@
+.all-chats{
+    display: flex;
+    flex-direction: column;
+        box-sizing: content-box;
+    width: 360px;
+    height: 100%;
+    border-right: 2px solid #605e5c42;
+    h2{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        padding: 20px 20px 20px 16px;
+        margin: 0;
+    }
+}
+
